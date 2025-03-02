@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awsome file link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- css file link -->
+    <link rel="stylesheet" href="src/css/styel.css" />
+    <title>2FOOD</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>2FOOD</a>
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-btn"></i>
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-shopping-cart" id="cart-btn"></i>
+        <i class="fas fa-heart" id="fav-btn"></i>
+      </div>
+      <!-- search form -->
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <!-- sopping cart -->
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/images__2_-removebg-preview.png" alt="" />
+          <div class="content">
+            <h3>Cơm Tấm</h3>
+            <span class="price">50.000 VND</span>
+            <span class="quantity">SL : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/images__1_-removebg-preview.png" alt="" />
+          <div class="content">
+            <h3>Bánh mì</h3>
+            <span class="price">20.000 VND</span>
+            <span class="quantity">SL : 2</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/download-removebg-preview.png" alt="" />
+          <div class="content">
+            <h3>Xôi</h3>
+            <span class="price">20.000 VND</span>
+            <span class="quantity">SL : 1</span>
+          </div>
+        </div>
+        <div class="total">Tổng: 110.000 VND</div>
+        <a href="#" class="btn">Thanh toán</a>
+      </div>
+      <form action="" class="fav-form">
+        <h3 class="head">favorite</h3>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/images__2_-removebg-preview.png" alt="" />
+          <div class="content">
+            <h3>Cơm tấm</h3>
+            
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/download-removebg-preview.png" alt="" />
+          <div class="content">
+            <h3>Xôi</h3>
+            
+          </div>
+        </div>
+      </form>
+    </header>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3><span>Tinh Hoa</span> Ẩm Thực Việt</h3>
+        <p>
+           
+        </p>
+        <a href="#order" class="btn">Mua ngay</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- dish section start -->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">Best<span>Seller</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/hq720-removebg-preview.png" alt="" />
+          <h3>Phở bò</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>50.000 VND</span>
+          <a href="#" class="btn">Mua ngay</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/bao-quoc-te-viet-ve-hanh-trinh-kham-pha-mon-bun-cha-o-goc-pho-ha-noi1-1692783720312-16927837204531322087852-removebg-preview.png" alt="" />
+          <h3>Bún chả</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>40.000 VND</span>
+          <a href="#" class="btn">Mua ngay</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/images__1_-removebg-preview.png" alt="" />
+          <h3>Bánh mì</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>20.000 VND</span>
+          <a href="#" class="btn">Mua ngay</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/images__2_-removebg-preview.png" alt="" />
+          <h3>Cơm Tấm</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>50.000 VND</span>
+          <a href="#" class="btn">Mua ngay</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/cach-lam-goi-cuon-tom-thit-cuc-ki-hap-dan-245587-800-removebg-preview.png" alt="" />
+          <h3>Gỏi cuốn</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>50.000 VND</span>
+          <a href="#" class="btn">Mua ngay</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/download-removebg-preview.png" alt="" />
+          <h3>Xôi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>20.000 VND</span>
+          <a href="#" class="btn">Mua ngay</a>
+        </div>
+      </div>
+    </section>
+    <!-- dish section ends -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why <span>choose us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="src/img/about-img.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>2FOOD – Hương vị Việt đích thực!</h3>
+          <p>
+             Tại 2FOOD,chúng tôi mang đến những món ăn đậm chất Việt với nguyên liệu tươi ngon, hương vị đậm đà và công thức truyền thống. Dù bạn đang thèm một tô phở nóng hổi, một chiếc bánh mì giòn rụm hay những món ăn đường phố hấp dẫn, chúng tôi luôn sẵn sàng phục vụ với tất cả tâm huyết và sự chân thành.
+          </p>
+          <p>
+            Hãy đến 2FOOD để thưởng thức trọn vẹn tinh hoa ẩm thực Việt!
+
+
+          </p>
+          
+          
+        </div>
+      </div>
+      <!-- about section ends -->
+    </section>
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's <span>speciality</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="src/img/hq720.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Phở</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>50.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/images.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Bánh mì</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>20.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/images (2).jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cơm Tấm</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>50.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/images (1).jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Bánh mì</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>20.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/photo-1673714040215-1673714043835729431810.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Bánh chưng</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>100.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/nguon-goc-mon-thit-kho-tau.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Thịt kho tàu</h3>
+            
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>50.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Thanh-pham-1-1-7239-1682395675.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Canh chua cá</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>80.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/30279_banhchay-480.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Bánh trôi</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>30.000 VND</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/58d6a00a741815785cf55c5a55330461.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Gà luộc lá chanh</h3>
+            
+            <a href="#" class="btn">Mua ngay</a>
+            <span>200.000 VND</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- review section start -->
+    <section class="review" id="review">
+      <h1 class="heading"><span>Đánh giá</span> của khách hàng</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="src/img/380292856_3153560848281189_1370905108766086648_n (1).jpg" alt="" />
+          <h3>Anh Chung</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Sống trên đời gần 20 năm rồi nhưng ẩm thực Việt vẫn là lựa chọn hàng đầu của tôi, và 2FOOD đã mang lại cho tôi những món ăn chuẩn Việt. Chân thành cảm ơn 2FOOD
+          </p>
+        </div>
+        <div class="box">
+          <img src="src/img/438065376_975384667538586_5849907571641053424_n.jpg" alt="" />
+          <h3>Ms Linh</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Cảm ơn 2FOOD đã mang lại một trải nghiệm đáng nhớ với những món ăn đậm chất Việt
+          </p>
+        </div>
+        <div class="box">
+          <img src="src/img/458269707_1913568389121136_7132846555854677903_n.jpg" alt="" />
+          <h3>Anh Khang</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Rất ngon
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- order section start -->
+    <section class="order" id="order">
+      <h1 class="heading"><span>order</span> now</h1>
+      <div class="row">
+        <div class="image">
+          <img src="src/img/waiter.jpg" alt="" />
+        </div>
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="example@gmial.com" required />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="Number" required />
+            <input type="text" placeholder="Food Name" required />
+          </div>
+          <textarea
+            placeholder="Address"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="order now" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- order section ends -->
+
+    <!-- footer start -->
+    <footer class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Địa điểm</h3>
+          <a href="#">Vietnam</a>
+          <a href="#">Lào</a>
+          <a href="#">Campuchia</a>
+          <a href="#">Thái Lan</a>
+          <a href="#">Trung Quốc</a>
+        </div>
+        
+        
+        <div class="box">
+          <h3>Liên hệ</h3>
+          <a href="#">+1900 1001</a>
+          
+          
+          <a href="#">2food@gmail.com</a>
+        </div>
+        <div class="box">
+          <h3>Theo dõi</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">intagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+      <div class="credit">
+        ©copyright @ 2025 designed by: <span>2FOOD</span>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- scroll btn -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- js file link -->
+    <script src="src/script/script.js"></script>
+  </body>
+</html>
